@@ -1,0 +1,22 @@
+@charset "gb2312";
+.MainContent {
+	margin-left: 154px;
+}
+.MainContent .wei {
+	text-align: left;
+	width: 945px;
+	margin-top: 3px;
+	margin-bottom: 8px;
+	background-color: rgba(242,248,255,1.00);
+	padding-top: 36px;
+	padding-bottom: 0px;
+	padding-left: 81px;
+	-webkit-box-shadow: 0 13px 15px -14px;
+	box-shadow: 0 13px 15px -14px;
+}
+.MainContent .wei .wei-nei {
+	margin-left: 107px;
+	margin-top: -48px;
+	padding-bottom: 12px;
+	padding-top: 0px;
+}
