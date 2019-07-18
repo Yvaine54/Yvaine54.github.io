@@ -5,10 +5,10 @@
 .MainContent .wei {
 	text-align: left;
 	width: 945px;
-	margin-top: 3px;
+	margin-top: 6px;
 	margin-bottom: 8px;
 	background-color: rgba(242,248,255,1.00);
-	padding-top: 36px;
+	padding-top: 43px;
 	padding-bottom: 0px;
 	padding-left: 81px;
 	-webkit-box-shadow: 0 13px 15px -14px;
@@ -16,7 +16,16 @@
 }
 .MainContent .wei .wei-nei {
 	margin-left: 107px;
-	margin-top: -48px;
-	padding-bottom: 12px;
+	margin-top: -47px;
+	padding-bottom: 17px;
 	padding-top: 0px;
+	margin-bottom: 4px;
+}
+.header {
+	margin-top: -266px;
+	height: 467px;
+	line-height: 223px;
+}
+.MainContent .SecondNav .shuqian {
+	padding-left: 90px;
 }
