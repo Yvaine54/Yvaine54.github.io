@@ -15,7 +15,7 @@
 	box-shadow: 0 13px 15px -14px;
 }
 .MainContent .wei .wei-nei {
-	margin-left: 107px;
+	margin-left: 131px;
 	margin-top: -47px;
 	padding-bottom: 17px;
 	padding-top: 0px;
@@ -29,4 +29,85 @@
 .MainContent .SecondNav .shuqian {
 	padding-left: 90px;
 	text-align: left;
+}
+.second.header_1 {
+	background-image: -webkit-linear-gradient(235deg,rgba(235,161,255,1.00) 0%,rgba(41,5,57,1.00) 100%);
+	background-image: -moz-linear-gradient(235deg,rgba(235,161,255,1.00) 0%,rgba(41,5,57,1.00) 100%);
+	background-image: -o-linear-gradient(235deg,rgba(235,161,255,1.00) 0%,rgba(41,5,57,1.00) 100%);
+	background-image: linear-gradient(215deg,rgba(235,161,255,1.00) 0%,rgba(41,5,57,1.00) 100%);
+	padding-bottom: 0px;
+	color: #F1EFFF;
+	font-style: normal;
+	-webkit-box-shadow: 0 8px 23px -6px hsla(257,38%,38%,1.00);
+	box-shadow: 0 8px 23px -6px hsla(257,38%,38%,1.00);
+	width: auto;
+	text-shadow: 2px 3px 22px hsla(49,100%,89%,1.00);
+	padding-top: 17px;
+	overflow-y: auto;
+	margin-bottom: 6px;
+	text-transform: none;
+	text-align: left;
+	font-size: 22px;
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+	border-spacing: 0 0;
+	background-position: 0 0;
+	line-height: -23px; /*设置line-height与父级元素的height相等*/
+	height: 45px;
+	vertical-align: baseline;
+}
+.candle {
+	margin-top: -67px;
+	margin-bottom: 42px;
+}
+
+.second.left_1 {
+	height: 1080px;
+	width: 156px;
+	-webkit-box-shadow: -7px 0px 61px -16px hsla(256,38%,38%,1.00);
+	box-shadow: -7px 0px 61px -16px hsla(256,38%,38%,1.00);
+	border-bottom-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+	background-color: hsla(276,100%,95%,1.00);
+	position: fixed;
+	padding-left: 31px;
+	padding-right: 5px;
+	padding-top: 39px;
+	background-image: -webkit-linear-gradient(223deg,rgba(255,252,240,1.00) 0%,rgba(253,186,255,1.00) 100%);
+	background-image: -moz-linear-gradient(223deg,rgba(255,252,240,1.00) 0%,rgba(253,186,255,1.00) 100%);
+	background-image: -o-linear-gradient(223deg,rgba(255,252,240,1.00) 0%,rgba(253,186,255,1.00) 100%);
+	background-image: linear-gradient(227deg,rgba(255,252,240,1.00) 0%,rgba(253,186,255,1.00) 100%);
+	z-index: 0;
+	border-top-right-radius: 54px;
+}
+.article_1 {
+	width: auto;
+	padding-left: 0px;
+	margin-left: 327px;
+	text-indent: 33px;
+	margin-right: 154px;
+}
+.next_1 {
+	margin-left: 784px;
+	padding-top: 0px;
+	margin-top: 0px;
+	line-height: 37px;
+	color: #7646FF;
+	float: right;
+	margin-right: 42px;
+}
+.top_1 .right{
+	
+	float: right;
+	width: 100px;
+}
+.top_1 .left{
+	overflow: hidden;
+}
+.top_1:after{
+	content: "";
+	height: 0;
+	line-height: 0;
+	display: block;
+	visibility: hidden;
+	clear: both;
 }
