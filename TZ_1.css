@@ -4,7 +4,6 @@
 }
 .MainContent .wei {
 	text-align: left;
-	width: 945px;
 	margin-top: 6px;
 	margin-bottom: 8px;
 	background-color: rgba(242,248,255,1.00);
@@ -13,6 +12,7 @@
 	padding-left: 81px;
 	-webkit-box-shadow: 0 13px 15px -14px;
 	box-shadow: 0 13px 15px -14px;
+	margin-left: 254px;
 }
 .MainContent .wei .wei-nei {
 	margin-left: 131px;
