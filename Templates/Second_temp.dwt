@@ -1,0 +1,137 @@
+<!doctype html>
+<html>
+<head>
+<base href="../index.html" target="_blank">
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>糖纸-最新动态</title>
+<!-- TemplateEndEditable -->
+<style>
+a{text-decoration:none;color:#AE71BD;}
+a:hover{text-decoration:none;color:#FF3A65;}	
+.font3  {
+}
+.MainContent {
+	margin-top: 0px;
+	height: auto;
+}
+.SecondNav{
+	width: 15%;
+	height: 481px;
+	margin-right: auto;
+	margin-left: 0px;
+	background-color: #F2F8FF;
+	position: fixed;
+	bottom: 0;
+	text-align: center;
+	-webkit-box-shadow: 0 13px 14px -14px;
+	box-shadow: 0 13px 14px -14px;
+	padding-top: 88px;
+	display: inherit;
+	margin-bottom: 34px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	top: 359px;
+	left: 0px;
+	border-top-right-radius: 54px;
+	border-bottom-left-radius: 54px;
+	padding-left: 0px;
+	}
+</style>
+
+
+<link href="../TZ_1.css" rel="stylesheet" type="text/css">
+<meta name="Keywords" content="糖纸特效，斌">
+<meta name="Description" content="关于游戏特效的网站">
+<meta charset="utf-8">
+<meta name="robots" content="index">
+<meta http-equiv="cache-control" content="no-cache">
+<meta http-equiv="pragma" content="no-cache">
+<meta http-equiv="windows-target" content="_top">
+<link rel="icon" type="image/x-icon" href="../favicon.ico"/>
+<link rel="shortcut icon" type="image/x-icon" href="../favicon.ico"/>
+<!-- TemplateBeginEditable name="head" -->
+<meta name="description" content="杨斌个人网站的最新动态的目录页">
+<!-- TemplateEndEditable -->
+</head>
+
+<!--你可以的！-->
+
+<body bgcolor="#F1F1FF">
+
+<a name="top"><div  class="header" align="center" id="font1" style="background-image:url(../image/0003.png);">
+<br/>
+	<font align="center" color=" #FEEFFF" size="+15" face="黑体">糖纸</font> <font align="center" color=" #FEEFFF" size="+12" face="宋体">|</font>
+<font align="center" color=" #FEEFFF" size="+10" face="宋体">Yvaine</font>
+</div> 
+</a>
+
+<div class="font3" height:777px align="center"><br>
+  <br>
+  <!-- TemplateBeginEditable name="FL" -->
+  <font color="#FFADC6" face="黑体" size="+3">最新动态</font> 
+  <font color="#AE71BD" face="黑体" size="+2">//</font> 
+  <font color="#AE71BD" face="黑体" size="+2"><a href="#">Shader编程</a></font> 
+  <font color="#AE71BD" face="黑体" size="+2">//</font> 
+  <font color="#AE71BD" face="黑体" size="+2"><a href="#">特效记录</a></font> 
+  <font color="#AE71BD" face="黑体" size="+2">//</font> 
+  <font color="#AE71BD" face="黑体" size="+2"><a href="#">C#学习</a></font> 
+  <font color="#AE71BD" face="黑体" size="+2">//</font> 
+  <font color="#AE71BD" face="黑体" size="+2"><a href="../zlyz.html">杂乱有章</a></font> 
+  <font color="#AE71BD" face="黑体" size="+2">//</font> 
+  <font color="#AE71BD" face="黑体" size="+2"><a href="#">原始图集</a></font> 
+  <font color="#AE71BD" face="黑体" size="+2">//</font> 
+  <font color="#AE71BD" face="黑体" size="+2"><a href="#">关于我</a></font>
+  <!-- TemplateEndEditable --><br>
+  <br>
+<font color="#AE71BD" face="黑体" size="+1"><a href="../index.html">返回主页</a></font></div>
+
+<img src="../image/0002.png" width="100%"/>
+
+
+<div class="MainContent" align="center" style="overflow: auto; width: 70%">
+
+ <!--目录标签-->
+ <!-- TemplateBeginEditable name="MLBQ" -->
+ <div> <a name="0005"> <a href="../ZLYZ/zlyz0001.html">
+   <div class="wei" style="line-height: 14pt;"> <font size="7" face="宋体">0001|</font>
+     <div class="wei-nei"> <font size="+2" face="黑体">糖纸Startup</font>
+       <hr style="height:1px;border:none;border-top:1px dashed #DCD2FF;width: 50%" align="left" />
+       <font color=" #C1C8FF">2019年7月31日 </font> <font color=" #C1C8FF">&nbsp;&brvbar;&nbsp;分类：杂乱有章 </font> </div>
+   </div>
+   </a> </a> <br/>
+ </div>
+ <!-- TemplateEndEditable -->
+ <!--目录标签End-->
+
+
+
+<!--跳转书签-->
+<!-- TemplateBeginEditable name="SQ" -->
+<div class="SecondNav"> <font face="黑体" color="#AE71BD" size="+2">小书签</font>
+  <ul class="shuqian">
+    <!--<a href="zxdt.html#020" target="_self"><li>016-020</li></a>
+	<a href="zxdt.html#015" target="_self"><li>011-015</li></a>
+	<a href="zxdt.html#010" target="_self"><li>006-010</li></a>-->
+    <a href="../zxdt.html#0005" target="_self">
+      <li>0001-0005</li>
+      </a> <br/>
+    <a href="../zxdt.html#top" target="_self"><font>---TOP---</font></a> <br/>
+    <br/>
+    <br/>
+    <a href="mailto:yvaine_tx@outlook.com"> <img src="../image/0001.png" width="21" height="15" alt=""/>发送邮件 </a>&nbsp;&nbsp;&nbsp;
+  </ul>
+</div>
+<!-- TemplateEndEditable -->
+<!--跳转书签End-->
+
+
+
+
+</div>
+
+
+
+<!--<a href="works/Yvaine's works_2.mp4">mp4下载</a>-->
+</body>
+</html>
