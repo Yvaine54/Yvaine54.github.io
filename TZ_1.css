@@ -167,3 +167,10 @@
 	background-image: -o-linear-gradient(270deg,rgba(83,0,115,1.00) 0%,rgba(38,0,71,1.00) 100%);
 	background-image: linear-gradient(180deg,rgba(83,0,115,1.00) 0%,rgba(38,0,71,1.00) 100%);
 }
+.home {
+	height: 41px;
+	width: 187px;
+	margin-top: -87px;
+	margin-bottom: 64px;
+	background-color: hsla(359,100%,50%,1.00);
+}

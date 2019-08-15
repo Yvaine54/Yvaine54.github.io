@@ -9,7 +9,12 @@
 <!-- TemplateEndEditable -->
 <style>
 a{text-decoration:none;color:#AE71BD;}
-a:hover{text-decoration:none;color:#FF3A65;}	
+a:hover{
+	text-decoration: none;
+	color: hsla(342,100%,61%,1.00);
+	text-shadow: 0 0 30px hsla(64,100%,50%,1.00);
+	font-weight: bolder;
+}	
 	
 #top {display:block;bottom:0px;right:1px!important;right:18px;width:200px;line-height:30px;position:fixed;text-align:center;}
 </style>
@@ -31,14 +36,13 @@ a:hover{text-decoration:none;color:#FF3A65;}
 
  
 <body bgcolor="#F1F1FF" text="#AE71BD">
-
 <header class="second header_1">
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 <font>糖纸|Yvaine&nbsp;&nbsp;&gt;&gt;&gt;&nbsp;</font>
 <!-- TemplateBeginEditable name="fl" -->杂乱有章<!-- TemplateEndEditable -->
 </header>
-<div class="candle">
-<a name="top"><img src="../image/0005.png" width="54" height="54"/> </a>
+<div class="candle"> 
+<a name="top"><a href="../index.html"><img src="../image/0005.png" width="54" height="54"/></a> </a>
 <div id="54" class="row"></div>
 </div>
 
