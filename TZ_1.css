@@ -158,3 +158,12 @@
 	font-size: medium;
 	text-decoration: none;
 }
+.bottom {
+	background-color: hsla(272,100%,14%,1.00);
+	height: 141px;
+	margin-top: 116px;
+	background-image: -webkit-linear-gradient(270deg,rgba(83,0,115,1.00) 0%,rgba(38,0,71,1.00) 100%);
+	background-image: -moz-linear-gradient(270deg,rgba(83,0,115,1.00) 0%,rgba(38,0,71,1.00) 100%);
+	background-image: -o-linear-gradient(270deg,rgba(83,0,115,1.00) 0%,rgba(38,0,71,1.00) 100%);
+	background-image: linear-gradient(180deg,rgba(83,0,115,1.00) 0%,rgba(38,0,71,1.00) 100%);
+}
