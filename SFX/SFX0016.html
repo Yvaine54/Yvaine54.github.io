@@ -2,10 +2,10 @@
 <html><!-- InstanceBegin template="/Templates/thirdly_temp.dwt" codeOutsideHTMLIsLocked="false" -->
 <head>
 <!-- InstanceBeginEditable name="base" -->
-<base href="SFX0015.html" target="_blank">
+<base href="SFX0016.html" target="_blank">
 <!-- InstanceEndEditable -->
 <!-- InstanceBeginEditable name="doctitle" -->
-<title>特效记录0015</title>
+<title>特效记录0016</title>
 <!-- InstanceEndEditable -->
 <style>
 a{text-decoration:none;color:#AE71BD;}
@@ -30,7 +30,7 @@ a:hover{
 <link rel="shortcut icon" type="image/x-icon" href="../favicon.ico"/>
 <link href="../TZ_1.css" rel="stylesheet" type="text/css">
 <!-- InstanceBeginEditable name="head" -->
-<meta name="description" content="RayFire摘抄之Objects">
+<meta name="description" content="粒子光感小记（清透）">
 <!-- InstanceEndEditable -->
 </head>
 
@@ -121,12 +121,12 @@ a:hover{
 
 <img src="../image/0007.png" width="44" height="24" alt=""/>
 <!-- InstanceBeginEditable name="sypz" -->
-<a href="SFX0014.html"><font>上一篇：RayFire摘抄之Physics</font></a>
+<a href="SFX0015.html"><font>上一篇：RayFire摘抄之Objects</font></a>
 <!-- InstanceEndEditable -->
 <br/>
 
 <!-- InstanceBeginEditable name="xypz" -->
-<a href="SFX0016.html"><font>下一篇：粒子光感小记（清透）</font></a>
+<a href="#"><font>下一篇：null~</font></a>
 <!-- InstanceEndEditable -->
 <img src="../image/0006.png" width="44" height="24" alt=""/> 
 
@@ -137,79 +137,70 @@ a:hover{
 <!--内容-->
 <article class="article_1">
 <font size="+3">
-<!-- InstanceBeginEditable name="title" -->RayFire摘抄之Objects<!-- InstanceEndEditable -->
+<!-- InstanceBeginEditable name="title" -->粒子光感小记（清透）<!-- InstanceEndEditable -->
 </font>
 <br/><br/>
 <font size="1" color="#888AFF">&nbsp;&nbsp;&nbsp;
-<!-- InstanceBeginEditable name="number" -->编号：0015<!-- InstanceEndEditable -->
+<!-- InstanceBeginEditable name="number" -->编号：0016<!-- InstanceEndEditable -->
 </font>
 <br/>
 <font size="1" color="#888AFF">&nbsp;&nbsp;&nbsp;
-<!-- InstanceBeginEditable name="date" -->日期：2019.08.28<!-- InstanceEndEditable -->
+<!-- InstanceBeginEditable name="date" -->日期：2019.09.07<!-- InstanceEndEditable -->
  &nbsp;&nbsp;
 <!-- InstanceBeginEditable name="category" -->分类：特效记录<!-- InstanceEndEditable -->
 </font>
 <br/><br/>
 <hr align="left" style="height:1px;border:none;border-top:1px dashed #DCD2FF;width: 79%" >
 <!-- InstanceBeginEditable name="article" -->
-<p>RayFire插件这一系列笔记，我差不多耗时半个月，磕磕绊绊地从其他网站上摘抄加小部分理解写成的，为得更好深入使用这个插件，这是我摘抄的网站</p><p>（https://www.cr173.com/html/20430_1.html）<p>
-<p>（https://www.docin.com/p-2063369467.html）</p>
-</p>然后我用的版本是（RayFire1.61.02），略低于参考文档的版本。</p>
-<p>另外其实他们写得非常好了，只不过我想亲自码一遍，图也全部重新截一遍，给自己留个印象啧嘛~~~~ 也许之后会有一些更加具体的实验操作性的笔记。</p>
-<br/><br/><br/><br/>
-<p>此次摘抄我把它分为四个部分，方便以后翻阅：</p>
-<p><a href="SFX0015.html">#0015#RayFire摘抄之Objects</a></p>
-<p><a href="SFX0014.html">#0014#RayFire摘抄之Physics</a></p>
-<p><a href="SFX0013.html">#0013#RayFire摘抄之Fragments</a></p>
-<p><a href="SFX0012.html">#0012#RayFire摘抄之Layers</a></p>
-<p>——————————————————————————————————————</p>
-	<br/><br/><br/><br/>
+<p>以下是四种用了不同贴图，但其他设置都相同的四束粒子。</p>
+<img src="SFX0016/SFX0016 (1).png" width="1236" height="661" alt=""/>
+<p>①号用的是默认的贴图，我曾一度懒得更换贴图，直接使用默认的来做东西，但事实上...一般情况...真的很丑。。。</p>
+<p>②③④则是不一样的贴图了，但效果也是参差不齐，我自认为③号是看着比较舒服的。。。一直以来我没去在意，直到前不久，感觉粒子光感是有所讲究的！</p>
+<p>猜猜③号粒子用的是哪个贴图？</p>
+<img src="SFX0016/SFX0016 (2).png" width="248" height="92" alt=""/>
+
+<br><br><br>
+<p>是的，我很有良心的，贴图序号和粒子号是对应的。</p>
+<p>我向来直觉是：</p>
+<p>lizi_2的贴图，效果应该很灵动，中间亮亮的，像是精灵翅膀上的小亮片。</p>
+<p>lizi_3的贴图，效果在alpha模式下，会脏不垃圾（暂时没验证），然后add模式下，又会看不见（因为混了“黑”，add就会过滤掉那部分，于是就不清晰了）</p>
+<p>lizi_4的贴图，效果.....我以为是大气而可爱的...就像个成熟的邻家少女吧。</p>
+
+<br><br><br>
+<p>事实如我们所见：</p>
+<p>lizi_2的贴图，微弱地，只看得见蓝色.....亮片什么的不存在的....（不过也不排除是不是粒子设置的太小的缘故）</p>
+<p>lizi_3的贴图，明暗清晰，压根不脏也不会不清晰好吧。。。</p>
+<p>lizi_4的贴图，不，它的效果确实大气可爱，也确实像个成熟邻家少女，甚至还带着些AV画质.....</p>
 
 
+<br><br><br>
+<p>接下来是我自以为的重点哈哈哈</p>
+<img src="SFX0016/SFX0016 (3).png" width="809" height="684" alt=""/>
+<img src="SFX0016/SFX0016 (4).png" width="809" height="684" alt=""/>
+<br>
+<p>不看RGB，Lab，CMYK。</p>
+<p>对比这个HSB，</p>
+<p>对比结果就是，S和B的差别，lizi_3的B值不满100，而lizi_4的S值不满100。</p>
+<p>B如果满100，则没有“黑”，不会暗；因此，3是带着点“黑暗”。</p>
+<p>S如果满100，则没有“白”，饱和度满满；因此，4是泛白的。</p>
+<br><br><br>
+<p>从某种感觉来看，3和4就是对立的。一个辉光它是“黑暗”的，一个辉光是“光明”。然而我本以为发光物就要加“泛白”的辉光，白加白就会更白。这是错的，这会导致AV画质...</p>
+<p>###所以，要扯开明暗亮起来，就要让一方适当“黑暗”点。——适当压制B值。</p>
 
-<p>【Objects】</p>
-<img src="SFX0015/SFX0015 (1).png" width="552" height="311" alt=""/>
-<p>==Dynamic/Impact Object（动态/影响物体）：在这里添加要被打碎的物体对象</p>
+<br><br><br>
+<p>关于lizi_2....emmmmmm......它的辉光颜色和lizi_3是一样的，“暗系”，它的情况...我感觉我还说不上，不好意思哈哈哈，以后加油~</p>
 
-<p>====Send to Sleeping list（发送到Sleeping列表）：这能把所有的碎片都发送到睡眠列表里，我感觉睡眠列表就是那种你不动到它，它就不会动那种。而现在这个“Dynamic/Impact Object”则是一开始就噼里啪啦地乱动了。</p>
-<p>====Interactive selection（交互式的选择）：不知道怎么用。。。</p>
-<p>====Select all：全选</p>
-<p>====Select Highlighted（选择高光显示）：首先在列表里选中一块碎片，然后再在这个Menu中点一下“Select objects highlighted in list”，你选的这块碎片就会在场景视口中高亮出现，不过这个操作要来回重复操作，有点儿麻烦的感觉。</p>
-<p>====Highlight objects selected in viewport：和上一个意思相反，就是现在场景视口中选中一块碎片，然后再在Menu中点一下“Highlight objects selected in viewport”,你选中的碎片，就会在列表中高光指出。</p>
-<br/><br/><br/><br/>
-
-<p>====Simulation geometry（几何仿真运算）：</p>
-<p>好像是convex（凸面体）解算速度是比较快的。</p>
-<img src="SFX0015/SFX0015 (2).png" width="453" height="90" alt=""/>
-<br/><br/><br/><br/>
-
-<p>====Material（材质）：</p>
-<img src="SFX0015/SFX0015 (3).png" width="478" height="394" alt=""/>
-<br/><br/><br/><br/>
-
-<p>==Static & Kinematic Objects（静态&动态物体）：把地板或者导向板或者要砸向物体的锤子之类的东西加到这里面去。但“平面（plan）”是会被穿透的，要用box。</p>
-<img src="SFX0015/SFX0015 (4).png" width="308" height="251" alt=""/>
-<br/><br/><br/><br/>
-
-<p>==Sleeping Objects（睡眠物体）：丢到这里面的东西，不给它来一下，它是不会动的。</p>
-<img src="SFX0015/SFX0015 (5).png" width="313" height="217" alt=""/>
-<br/><br/><br/><br/>
+<br><br><br>
+<p>【顺便补一下HSB色彩模式：】</p>
+<img src="SFX0016/SFX0016 (5).png" width="543" height="384" alt=""/>
+<p>【H（Hue）：色度，用于调整颜色，范围在0~360度之间。】</p>
+<p>【S（Saturation）：饱和度，范围在0%~100%之间，0%为灰色，100%为纯色。】</p>
+<p>【B（Brightness）：亮度，范围在0%~100%之间，0%为黑色，100%为白色。】</p>
 
 
-
-<p>==Material Presets（材质预设）</p>
-<p>Heavy metal 重合金      </p>
-<p>Light metal   轻金属            </p>
-<p>Dense rock致密岩石  </p>
-<p>Porous rock 多孔（松质）岩石       </p>
-<p>Concrete      混凝土         </p>
-<p>Brick  砖块  </p>
-<p>Glass   玻璃   </p>
-<p>Rubber  橡胶   </p>
-<p>Ice    冰      </p>
-<p>Wood 木材</p>
-<img src="SFX0015/SFX0015 (6).png" width="347" height="243" alt=""/>
-
+<br><br><br><br><br><br><br><br><br>
+<p>顺便顺便，我觉得，这个视频真好........让我想起好多好多好多.........这个BGM是是给东日本大地震死去的人民祈祷冥福的镇魂曲。</p>
+<p><a href="https://www.bilibili.com/video/av65626765">https://www.bilibili.com/video/av65626765</a></p>
 
 <!-- InstanceEndEditable -->
 </article>
@@ -218,7 +209,7 @@ a:hover{
 <!--top-->
 <div id="top">
 <!-- InstanceBeginEditable name="top" -->
-<a href="SFX0015.html#54" target="_self">
+<a href="SFX0016.html#54" target="_self">
 <!-- InstanceEndEditable -->
 <img src="../image/0008.png" width="54" height="92" alt=""/> 
 </a>
